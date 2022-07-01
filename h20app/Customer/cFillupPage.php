@@ -9,7 +9,7 @@
 
 
   ?>
-    <div class="mt-5 pt-5 text-start mx-1 mb-5 pb-3 bg-info">
+    <div class="mt-5 pt-5 text-start mx-1 mb-5 pb-3 ">
    
       <form method='post' action='cHomePage.php?info=searchfillup'>
         <div class="input-group text-center mx-3 mb-3" style="width:300px;">

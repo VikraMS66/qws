@@ -96,7 +96,7 @@ if (isset($_REQUEST['addressbook'])) {
                 <h5 class="card-title text-dark">1000 Litter Water</h5>
                 <h5 class="card-title text-success">Price Rs.250</h5>
                 <p class="card-text text-info">Get Delivery within 2-hours</p>
-                <a id="pd1" style='height:50px;width:100%' href="cHomePage.php?info=checkout" name="productSelected" class="btn btn-primary productSelected btn-lg">Order Now</a>
+                <a id="pd1" style='height:50px;width:100%' href="cHomePage.php?info=checkout" name="productSelected" class="btn btn-dark productSelected btn-lg">Order Now</a>
               </div>
             </div>
           </div>
@@ -120,7 +120,7 @@ if (isset($_REQUEST['addressbook'])) {
                 <h5 class="card-title text-dark">5000 Litter Water</h5>
                 <h5 class="card-title text-success">Price Rs.1000</h5>
                 <p class="card-text text-info">Get Delivery within 3-hours</p>
-                <a id="pd2" style='height:50px;width:100%' href="cHomePage.php?info=checkout" name="productSelected" class="btn btn-primary productSelected btn-lg">Order Now</a>
+                <a id="pd2" style='height:50px;width:100%' href="cHomePage.php?info=checkout" name="productSelected" class="btn btn-dark productSelected btn-lg">Order Now</a>
               </div>
             </div>
           </div>
@@ -140,7 +140,7 @@ if (isset($_REQUEST['addressbook'])) {
                 <h5 class="card-title text-dark">10000 Litter Water</h5>
                 <h5 class="card-title text-success">Price Rs.1500</h5>
                 <p class="card-text text-info">Get Delivery within 4-hours</p>
-                <a id="pd3" style='height:50px;width:100%' href="cHomePage.php?info=checkout"  name="productSelected" class="btn btn-primary productSelected btn-lg">Order Now</a>
+                <a id="pd3" style='height:50px;width:100%' href="cHomePage.php?info=checkout"  name="productSelected" class="btn btn-dark productSelected btn-lg">Order Now</a>
               </div>
             </div>
           </div>

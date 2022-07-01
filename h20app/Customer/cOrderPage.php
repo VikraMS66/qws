@@ -7,7 +7,7 @@
   $errors = array();
 
   ?>
-    <div class="mt-5 pt-5 text-start mx-1 mb-5 pb-3 bg-info">
+    <div class="mt-5 pt-5 text-start mx-1 mb-5 pb-3 " >
 
      
         <div class="orders">

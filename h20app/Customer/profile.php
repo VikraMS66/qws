@@ -19,9 +19,10 @@
       } else {
         echo "<h1 class'text-center mt-5 pt-5 mb-5 pb-5 mx-5'>No Profile Data Found</h1>";
       }
+      //#eee color code
 ?>
 
-<section  class="h-100 h-custom" style="background-color: #eee;">
+<section  class="h-100 h-custom" style="background-image:url('../images/back.jpg');">
     
   <div class='text-dark mt-0 text-center '>
     <form method='post'>

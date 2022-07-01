@@ -66,7 +66,7 @@
 
     
    
-  <div class="mt-5 pt-5 text-white bg-info ">
+  <div class="mt-5 pt-5 text-white ">
   <form method="post" action="cHomePage.php?info=products" >
     <div
         class="card-header bg-success text-center fixed-top mb-4 mt-5 pt-4"
