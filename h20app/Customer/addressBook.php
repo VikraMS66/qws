@@ -35,8 +35,22 @@
           $delID = $_POST['addressId'];
          $sql_query="DELETE FROM addressbook WHERE id='$delID'";
 	       $delete=mysqli_query($conn,$sql_query);
+
+         $queryAddress = "SELECT * FROM addressbook WHERE custID='$ID'";
+         $resultsAddress = mysqli_query($conn, $queryAddress);
+         if (mysqli_num_rows($resultsAddress) > 0) {
+               
+            while($row=mysqli_fetch_array($resultsAddress)) {
+                $addId=$row['id'];
+                $queryUpdate = "update customer set addressId='$addId' where mNumber='$ID'";
+                $update_sql=mysqli_query($conn,$queryUpdate);
+                
+            }
+            echo("<script>  location.href = 'cHomePage.php?info=addressbook';</script>");
+          } else {
+            echo("<script>  location.href = 'signin.php';</script>");
+          }
          
-         echo("<script>  location.href = 'cHomePage.php?info=addressbook';</script>");
     }
        
   }
